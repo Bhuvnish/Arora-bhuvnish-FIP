@@ -2,18 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>zima</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
     <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
     <link href="css/grid.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <title>zima</title>
 </head>
-<body>
-    <h1 class="hidden"> zima</h1> 
-    <div class="container">
-        <header id="main-header" class="grid-con">
-            <nav id="main-nav" class="col-span-full">
-                <h2 class="hidden">Main Navigation</h2>
-                <input type="checkbox" id="hamburger">
+
+    <body>
+
+       <h1 class="hidden">zima index</h1>
+       <div id="sticky-nav-con">
+            <header class="grid-con" id="main-header">
+                <nav id="main-nav" class="col-span-full m-col-start-4 m-col-end-11">
+                    <h2 class="hidden">Main Navigation</h2>
+                    <input type="checkbox" id="hamburger">
                 <label for="hamburger">
                     <img  id="burger" src="IMAGES/burger-menu.svg" alt="menu">
                 </label>
@@ -21,15 +25,24 @@
                     <ul>
                         <li><a href="moble.html">Home</a></li>
                         <li><a href="mobile-newproduct.html">NEW-ARRIVAL</a></li>
-                        
+                        <li><a href="#">COLLECTION</a></li>
                         <li><a href="#">TEAM</a></li>
-                        <li><a href="#">CONTACT</a></li>
-                        
+                        <li><a href="#">ON SALE</a></li>
+                        <li><a href="#">HISTORY</a></li>
                     </ul>
                 </div>
             </nav>
-           
-            <img  class="col-span-full"id="header-logo" src="IMAGES/fip-logo2.svg" alt="ZIMA logo" height="90px" width="100px">
-        </header>
-        <div id="hero-image" class="grid-con">
-            <img src="IMAGES/MOBILW-HERO-IMG.jpg"   class="col-start-1 col-end-4" alt="hero-image"></div>
+                <div id="logo" class="col-span-full m-col-start-1 m-col-end-4">
+                    <img src="images/fip-logo2.svg" alt="Burple Logo">
+                </div>
+            </header>
+       </div>
+       <div id="hero-image" class="grid-con">
+        <img src="images/MOBILW-HERO-IMG.jpg"   class="col-span-full m-col-span-full "></div>
+        <main>
+            <section id="video">
+                <h2 class="col-span-full  m-col-span-full">NEW-ARRIVAL</h2>
+                <img src="images/mobile-non-alcholic-80.jpg" alt="video">
+            </section>
+        </main>
+        
