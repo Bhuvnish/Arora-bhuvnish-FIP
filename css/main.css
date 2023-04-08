@@ -180,7 +180,7 @@ body {
  }
  
 
- #video h2 {
+ #new-arrivals h2 {
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 42px;
@@ -188,3 +188,118 @@ body {
     
  }
  
+ #hero img {
+   /* stretch image across all 3 grid columns */
+   grid-column: 1/-1;
+   /* set the image to stay in first row, so overlap can happen */
+   grid-row: 1/1;
+   /* make sure the image stays centered at xl screen sizes */
+   justify-self: center;
+}
+
+
+
+#hero-main {
+   height: 220px;
+   object-fit: cover;
+}
+#banner h2 {
+   font-family: 'Times New Roman', Times, serif;
+   color: white;
+   font-size: 12px;
+   text-align: left;
+   padding-left: 10px;
+}
+
+
+#banner{
+   
+  
+    background-color: black;
+    color: aliceblue;
+    
+}  
+#banner h2{
+   font-size: 16px;
+   margin-top: 15px;
+}
+#buy-now{
+   font-size: 20px;
+   
+   padding-left: 280px;
+  
+   
+
+}
+#buy-now a {
+  
+ 
+   
+ 
+ color: #fff;
+ text-decoration: none;
+ border-radius: 1px solid white;
+
+
+
+   
+}
+
+
+
+
+#collection {
+  
+   margin-top: 20px;
+   text-align: center;
+   
+}
+
+#collection div {
+   margin-top: 20px;
+}
+
+#collection img {
+   margin-top: 20px;
+}
+
+#team {
+  
+   margin-top: 20px;
+   text-align: center;
+   margin-bottom: 50px;
+   background-color: #626262;
+   
+}
+
+#team div {
+   margin-top: 20px;
+}
+
+#team div h3 {
+   margin-top: 20px;
+   font-size: 25px;
+   color: white;
+}
+
+#team h2{
+   font-size: 60px;
+   margin-top: 45px;
+   color: goldenrod;
+}
+
+@media screen and  (min-width: 760px) {
+   #banner{
+      
+     height: 156px;
+   }
+   #banner h2{
+      font-size: 31px;
+   }
+   #buy-now{
+margin-left: 300px;
+font-size: 30px;
+
+   }
+
+}
