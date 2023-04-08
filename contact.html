@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <title>zima</title>
+</head>
+<body>
+    <h1 class="hidden">Burple Homepage</h1>
+    <div id="sticky-nav-con">
+         <header class="grid-con" id="main-header">
+             <nav id="main-nav" class="col-span-full m-col-start-4 m-col-end-11">
+                 <h2 class="hidden">Main Navigation</h2>
+                 <button id="button"></button>
+                 <div id="burger-con">
+                     <ul id="burger-menu">
+                         <li><a href="index.html">Home</a></li>
+                         <li><a href="team.html">Who are we?</a></li>
+                         <li><a href="products.html">Products</a></li>
+                         <li><a href="Ecofriendly.html">Eco-Friendly</a></li>
+                         <li><a href="contact.html">Contact</a></li>
+                     </ul>
+                 </div>
+             </nav>
+             <div id="logo" class="col-span-full m-col-start-1 m-col-end-4">
+                 <a href="index.html"><img src="images/BURPLE_Logo.svg" alt="Burple Logo"></a>
+             </div>
+             <!--<div id="book-now-header" class="m-col-span-2 book-now">-->
+             <div id="sign-in-header" class="m-col-span-2 sign-in">
+                 <p>Sign in/Register</p>
+             </div>
+         </header>
+
+         <main class="grid-con">
+            <section id="contact-form" class="col-span-full m-col-span-full l-col-span-full">
+                <h3 class="hidden">Contact Us Form</h3>
+                <form action="email.php" method="POST" enctype="text/plain">
+                    <input name="firstName" type="text" placeholder="Firstname" >
+                            <h2>username</h2>
+                    <input name="lastName" type="text" placeholder="Lastname">
+                              <h2>password</h2>
+                              <input name="submit" type="submit" value="login">
+
+                    <input name="contactInfo" type="text" required placeholder="Email">
+                    <input name="contactInfo" type="text" required placeholder="Confirm Email">
+                    <input name="contactInfo" type="text" required placeholder="Phone number">
+                    <input name="address" type="text" placeholder="Address">
+                    <input name="city" type="text" placeholder="City">
+                    <input name="province" type="text" placeholder="Province">
+                    <textarea name="msg" placeholder="Describe a bit...."></textarea>
+                    <input name="submit" type="submit" value="Send">
+                </form>
+            </section>
+        </main>
