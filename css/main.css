@@ -1,4 +1,92 @@
-.hidden {
+
+.hidden{ display: none;}
+
+body {
+    font-family: 'Comfortaa', 'Times New Roman', serif;
+ }
+ 
+ a {
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+ }
+ 
+ input, textarea {
+    display: block;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ .cr-red {
+    color: #600783;
+ }
+ 
+ /* 2. ---Main Nav--- */
+ 
+ #main-nav button {
+    width: 30px;
+    height: 30px;
+    background: url(../images/burger-menu.svg) no-repeat center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    transition: all .5s ease;
+    border: 0;
+    cursor: pointer;
+ }
+ 
+ #main-nav button.expanded {
+    transform: rotate(90deg);
+ }
+ 
+ #burger-con {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: none;
+ }
+ 
+ #burger-con.slide-toggle {
+    display: block;
+ }
+ 
+ #main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+ }
+ 
+ #main-nav ul li a {
+    display: block;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    color: #430886;
+ }
+ 
+ #main-nav ul li a:hover {
+    color: #662D91;
+ }
+ 
+ #main-nav ul li {
+    border-bottom: 1px solid #efefef;
+ }
+ 
+ #main-nav ul li:first-child {
+    border-top: 1px solid #efefef;
+ }
+ 
+ #main-nav ul li:last-child {
+    margin-bottom: 10px;
+ }
+ 
+
+ 
+ 
+ 
+ #logo {
+    max-width: 150px;
+    margin-bottom: 10px;
+    margin-left: 130px;
+    margin-top: -50px;
+ }
+ .hidden {
     display: none;
 }
  
@@ -83,14 +171,135 @@
     transform: rotate(90deg);
  }
 
+ 
 
-#header-logo{ 
-    grid-column: 2/-1;
+ /**HEADER FINISH MOBILE*/
+
+ #hero-image{
+    padding: 0px;
+ }
+ 
+
+ #new-arrivals h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 42px;
+    text-align: center;
+    
+ }
+ 
+ #hero img {
+   /* stretch image across all 3 grid columns */
+   grid-column: 1/-1;
+   /* set the image to stay in first row, so overlap can happen */
+   grid-row: 1/1;
+   /* make sure the image stays centered at xl screen sizes */
+   justify-self: center;
+}
+
+
+
+#hero-main {
+   height: 220px;
+   object-fit: cover;
+}
+#banner h2 {
+   font-family: 'Times New Roman', Times, serif;
+   color: white;
+   font-size: 12px;
+   text-align: left;
+   padding-left: 10px;
+}
+
+
+#banner{
+   
+  
+    background-color: black;
+    color: aliceblue;
+    
+}  
+#banner h2{
+   font-size: 16px;
+   margin-top: 15px;
+}
+#buy-now{
+   font-size: 20px;
+   
+   padding-left: 280px;
+  
+   
+
+}
+#buy-now a {
+  
+ 
+   
+ 
+ color: #fff;
+ text-decoration: none;
+ border-radius: 1px solid white;
+
+
+
    
 }
-#hero-image{
-    grid-column: 1/-1;
-    padding: 0px;
-    margin: auto;
-    
+
+
+
+
+#collection {
+  
+   margin-top: 20px;
+   text-align: center;
+   
+}
+
+#collection div {
+   margin-top: 20px;
+}
+
+#collection img {
+   margin-top: 20px;
+}
+
+#team {
+  
+   margin-top: 20px;
+   text-align: center;
+   margin-bottom: 50px;
+   background-color: #626262;
+   
+}
+
+#team div {
+   margin-top: 20px;
+}
+
+#team div h3 {
+   margin-top: 20px;
+   font-size: 25px;
+   color: white;
+}
+
+#team h2{
+   font-size: 60px;
+   margin-top: 45px;
+   color: goldenrod;
+}
+
+@media screen and  (min-width: 760px) {
+   #banner{
+      
+     height: 156px;
+   }
+   #banner h2{
+      font-size: 31px;
+   }
+   #buy-now{
+margin-left: 300px;
+font-size: 30px;
+
+   }
+
 }
