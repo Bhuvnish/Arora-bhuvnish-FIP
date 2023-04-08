@@ -1,177 +1,61 @@
 
-.hidden{ display: none;}
-
-body {
-    font-family: 'Comfortaa', 'Times New Roman', serif;
- }
- 
- a {
-    text-decoration: none;
-    transition: all .5s ease-in-out;
- }
- 
- input, textarea {
-    display: block;
-    margin: 0;
-    padding: 0;
- }
- 
- .cr-red {
-    color: #600783;
- }
- 
- /* 2. ---Main Nav--- */
- 
- #main-nav button {
-    width: 30px;
-    height: 30px;
-    background: url(../images/burger-menu.svg) no-repeat center;
-    margin-top: 15px;
-    margin-bottom: 20px;
-    transition: all .5s ease;
-    border: 0;
-    cursor: pointer;
- }
- 
- #main-nav button.expanded {
-    transform: rotate(90deg);
- }
- 
- #burger-con {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: none;
- }
- 
- #burger-con.slide-toggle {
-    display: block;
- }
- 
- #main-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
- }
- 
- #main-nav ul li a {
-    display: block;
-    padding: 10px 0 10px 0;
-    text-align: center;
-    color: #430886;
- }
- 
- #main-nav ul li a:hover {
-    color: #662D91;
- }
- 
- #main-nav ul li {
-    border-bottom: 1px solid #efefef;
- }
- 
- #main-nav ul li:first-child {
-    border-top: 1px solid #efefef;
- }
- 
- #main-nav ul li:last-child {
-    margin-bottom: 10px;
- }
- 
-
- 
- 
- 
- #logo {
-    max-width: 150px;
-    margin-bottom: 10px;
-    margin-left: 130px;
-    margin-top: -50px;
- }
  .hidden {
     display: none;
 }
  
-.container {
-    width: 428px;
-    margin: 0 auto;
-    box-shadow: 2px 1px 20px 20px #98c1d9;
-    /* text-align: center; */
-}
-
-.grid {
-    display: grid;
-    padding-left: 15px;
-    padding-right: 15px;
-   
-    grid-template-columns: repeat(4, 77px);
-    grid-column-gap:30px;
-}
 
 
-
-#main-header{
-    grid-column:1/-1;
-    
-        box-shadow: 2px 1px 20px 20px #98c1d9;
-   
-}
-#main-nav {
-    grid-column: 1/-1;
-  
-}
-
-#main-nav label img {
-	background: url(../images/burger.svg) center no-repeat;
-	border: 0px;
-	width: 50px;
-	height: 40px;
-	transition: all .5s ease;
-    margin-top: 10px;
-    
-    
-    cursor: pointer;
-    
-}
-
-
-#main-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
- }
- 
- #main-nav li a {
-     display: block;
-     padding: 10px 0 10px 0;
-     text-align: center;
-     color: #626262;
-     text-decoration: none;
- }
- 
- #main-nav li {
-     border-bottom: 1px solid #efefef;
- }
- 
- #main-nav li:first-child {
-     border-top: 1px solid #efefef;
- }
- 
- #main-nav li:last-child {
-     margin-bottom: 10px;
- }
-
-#burger-con, #main-nav input {
-    display: none;
-}
-
- #main-nav input:checked ~ #burger-con {
-    display: block;
- }
-
- #main-nav input:checked ~ label img{
-    transform: rotate(90deg);
- }
 
  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  /**HEADER FINISH MOBILE*/
 
@@ -187,6 +71,14 @@ body {
     text-align: center;
     
  }
+ 
+ #new-arrival h2 {
+   margin-top: 10px;
+   margin-bottom: 10px;
+   font-size: 42px;
+   text-align: center;
+   
+}
  
  #hero img {
    /* stretch image across all 3 grid columns */
@@ -214,7 +106,7 @@ body {
 
 #banner{
    
-  
+  margin-top: 0PX;
     background-color: black;
     color: aliceblue;
     
@@ -288,6 +180,107 @@ body {
    color: goldenrod;
 }
 
+#yo {
+background-color: #522020;
+
+}
+#yo h2
+
+{ text-align: center;
+font-size: 30px;
+margin-top: 20px;
+
+color: goldenrod;}
+#yo h3
+
+{margin-top: 20px;
+   margin-bottom: 20px;
+    text-align: center;
+font-size: 30px;}
+
+   #footer{
+      background-image: url(../images/footer-desktop-80.jpg);
+  }
+     
+.golden{
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+#contact-form input[type="submit"]:hover {
+   background-color: ivory;
+   border-radius: 10px;
+}
+
+
+#contact-form input, textarea {
+   padding: 14px;
+   border: 2px solid #d6d6d6;
+   background-color: #f7f7f7;
+   border-radius: 7px;
+   margin-bottom: 18px;
+   font: inherit;
+}
+
+#contact-form input[type="submit"] {
+   padding: 10px 24px;
+   background: #00000088;
+   color: #fff;
+   border: none;
+   transition: all 200ms ease-in;
+   width: 120px;
+   
+   text-align: center;
+}
+
+#contact-form input[type="submit"]:hover {
+   background-color: ivory;
+   border-radius: 10px;
+}
+
+#contact-form{
+   background-color: ivory;
+   padding-left: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and  (min-width: 760px) {
    #banner{
       
@@ -302,4 +295,78 @@ font-size: 30px;
 
    }
 
+
+   #new-arrival{
+      margin-left: 50px;
+    }
+ 
+
+
+
+   #sticky-nav-con {
+      position: sticky;
+      background-color: #fff;
+      top: 0px;
+      border-bottom: solid 1px #c3c3c3;
+      z-index: 1;
+      /* had to set z-index as css filters was causing images to overlap, see below */
+   }
+
+   #button {
+      display: none;
+   }
+
+   #logo {
+      width: 90%;
+      margin-top: 10px;
+      order: -1;
+      margin-left: 30px;
+   }
+
+   #burger-con {
+      display: block;
+      font-size: 13px;
+   }
+
+   #burger-con ul li, #burger-con ul li:first-child {
+      border: none;
+      display: inline;
+   }
+
+   #main-nav ul li a {
+      display: inline;
+   }
+
+   #burger-con ul li {
+      margin-right: 10px;
+   }
+
+   #burger-con ul li:last-child {
+      margin-right: 0;
+   }
+
+   #main-nav {
+      margin-top: 4%;
+      margin-bottom: 4%;
+      border-left: 1px solid #dce0f3;
+      padding-left: 30px;
+      
+   }
+
+   #sign-in-header {
+      margin-top: 30px;
+      height: 40px;
+      display: flex;
+      margin-right: -16px;
+      margin-right: 5px;
+      color: #fdfbfb;
+   }
+
+   #sign-in-header p {
+      font-size: 12px;
+   }
+
+   #sign-in-hero {
+      display: none;
+   }
 }
