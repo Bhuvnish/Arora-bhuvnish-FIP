@@ -51,6 +51,10 @@
    
 }
 
+#main-nav ul li a:hover{
+   color: goldenrod;
+}
+
 
 
 #main-nav ul li {
@@ -78,14 +82,18 @@
 }
 #sign-in-header a{
    color: white;
+   text-decoration: none;
+   
 }
 
-.sign-in a:hover {
-   box-shadow: inset 0px -120px 0px white;
+#sign-in-header a:hover {
+  
+   color: goldenrod;
 }
 
 #sign-in-header {
    display: none;
+   
 }
 
 #logo {
@@ -231,9 +239,16 @@
  #new-arrivals h2 {
     margin-top: 10px;
     margin-bottom: 10px;
-    font-size: 42px;
+    font-size: 22px;
     text-align: center;
     
+ }
+
+ #new-arrivals h2:hover{
+   color: goldenrod;
+   font-size: 30px;
+   transition: 0.5s ease-in;
+  
  }
  
  #new-arrival h2 {
@@ -243,6 +258,20 @@
    text-align: center;
    
 }
+
+
+#new-arrival img:hover{
+   opacity: 70%;
+   border-radius: 30%;
+  
+      transform: scale(1.1);
+      animation: zoomIn 1s forwards;
+  
+}
+
+
+
+
  
  #hero img {
    /* stretch image across all 3 grid columns */
@@ -259,12 +288,16 @@
    height: 220px;
    object-fit: cover;
 }
-#banner h2 {
+#banner h3 {
    font-family: 'Times New Roman', Times, serif;
    color: white;
-   font-size: 12px;
+   font-size: 20px;
    text-align: left;
-   padding-left: 10px;
+   padding: 10px;
+
+}
+#banner h3:hover {
+   color: goldenrod;
 }
 
 
@@ -275,14 +308,12 @@
     color: aliceblue;
     
 }  
-#banner h2{
-   font-size: 16px;
-   margin-top: 15px;
-}
+
 #buy-now{
    font-size: 20px;
    
    padding-left: 280px;
+   padding-bottom: 10px;
   
    
 
@@ -303,6 +334,13 @@
 
 
 
+#footer-nav ul li a{
+   text-decoration: none;
+   color: black;
+}
+
+
+
 
 #collection {
   
@@ -317,6 +355,12 @@
 
 #collection img {
    margin-top: 20px;
+}
+#collection a{
+   color: #626262;
+   text-decoration: none;
+   margin-bottom: 20px;
+   text-align: center;
 }
 
 #team {
@@ -354,13 +398,44 @@ background-color: #522020;
 font-size: 30px;
 margin-top: 20px;
 
-color: goldenrod;}
+color: white;}
 #yo h3
 
-{margin-top: 20px;
+{margin-top: 10px;
    margin-bottom: 20px;
     text-align: center;
-font-size: 30px;}
+font-size: 20px;
+color: #d6d6d6;}
+
+
+#yo h2:hover{
+   color: goldenrod;
+   
+}
+
+
+
+#banner h4{
+   font-size: 30px;
+   margin-left: 10px;
+   padding-top: 20px;
+  
+}
+#buy-now a{
+   color: green;
+  
+
+}
+
+
+
+
+
+
+
+
+
+
 
    #footer{
       background-image: url(../images/footer-desktop-80.jpg);
@@ -476,15 +551,26 @@ font-size: 30px;}
 
 @media screen and  (min-width: 760px) {
    #banner{
-      
-     height: 156px;
+      height: 120px
+     ;
    }
-   #banner h2{
+   #banner h3{
       font-size: 31px;
+      margin-top: 30px;
+      margin-left: 10px;
+   }
+   #banner h3:hover{
+      font-size: 35px;
+      margin-top: 30px;
+      margin-left: 10px;
+      transition: 0.2 ease;
+      color: goldenrod;
    }
    #buy-now{
-margin-left: 300px;
+margin-left: 150px;
 font-size: 30px;
+
+
 
    }
 
@@ -501,9 +587,9 @@ font-size: 30px;
       position: sticky;
       background-color: #fff;
       top: 0px;
-      border-bottom: solid 1px #c3c3c3;
-      z-index: 1;
-      /* had to set z-index as css filters was causing images to overlap, see below */
+      border-bottom: solid 1px silver;
+    
+     
    }
 
    #button {
@@ -576,6 +662,21 @@ font-size: 30px;
 #meme{
    margin-left: -200px;
 }
+#new-arrivals h2:hover{
+   color: goldenrod;
+   font-size: 50px;
+   transition: 0.5s ease-in;
+  
+ }
+ #new-arrivals h2 {
+   margin-top: 30px;
+   margin-bottom: 30px;
+   font-size: 42px;
+   text-align: center;
+   
+}
+
+
 }
 
 @media screen and  (min-width: 1020px) {
@@ -585,4 +686,69 @@ font-size: 30px;
       margin-left: 400px;
       width: 350px;
    }
+
+   #new-arrivals h2{
+      padding: 50px;
+      font-size: 70px;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+   }
+   #new-arrivals h2:hover{
+      color: goldenrod;
+      font-size: 70px;
+      transition: 0.5s ease-in;
+     
+    }
+    #banner{
+      height: 200px;
+    }
+    #banner h3{
+      font-size: 51px;
+      margin-top: 30px;
+      margin-left: 10px;
+   }
+   #banner h3:hover{
+      font-size: 45px;
+      margin-top: 30px;
+      margin-left: 10px;
+      transition: 0.2 ease;
+      color: goldenrod;
+      transition: 0.5s ease;
+   }
+ .buy{
+   margin-left: 350px ;
+   color: #522020;
+   border: 1px solid white;
+   font-size: 50px;
+   background-color: #626262;
+ 
 }
+#buy-now{
+   margin-left: 350px;
+   font-size: 40px;
+   
+   
+   
+      }
+      #banner h4{
+         font-size: 50px;
+         color: #626262;
+      }
+      #banner{
+         height:150px;
+      }
+
+#yo h2{
+   font-size: 60px;
+
+}
+#yo h2:hover{
+   color: goldenrod;
+}
+#yo h3{
+   font-size: 40px;
+   text-align: right;
+}
+
+
+}
+    
