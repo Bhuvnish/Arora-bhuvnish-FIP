@@ -127,6 +127,77 @@
 
 
 
+  #characters {
+   text-align: center;
+   background-color: grey;
+}
+
+.namestaff {
+   font-weight: bolder
+}
+
+#characters h2 {
+   margin-top: 20px;
+}
+
+#characters h3 {
+   margin-top: 20px;
+}
+
+#characters p {
+   margin-top: 10px;
+}
+
+#characters div {
+   margin-top: 15px;
+}
+
+#characters img:hover {
+   opacity: 70%;
+   border-radius:50%;
+}
+
+.lightbox { 
+    width: 30vw; 
+    height: 35vh; 
+    border-radius: 2%;
+    position: absolute;
+    top: 140%;
+    left: 35%;
+    background-color: rgba(17, 6, 24, 0.938);
+    z-index: 5000;
+    display: none;
+}
+
+.lightbox_close {
+    position: relative;
+    top: 200px;
+    left: 85%;
+    color: white;
+    font-size: 3em;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.lightbox_close:hover { opacity: 0.5; color: rgb(141, 119, 146); }
+
+
+
+.lightbox article {
+    width: 80%;
+    margin-left: 10%;
+    color: white;
+}
+
+.lb_text, .lb_heading { text-align: center; }
+
+.lb_text {
+    line-height: 1.6 !important;
+    margin-left: 0;
+    padding-top: 2em;
+}
+
+.lightbox:target { display: block; }
 
 
 
