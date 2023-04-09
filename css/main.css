@@ -219,6 +219,8 @@ font-size: 30px;}
    border-radius: 7px;
    margin-bottom: 18px;
    font: inherit;
+   align-self: center;
+   text-align: center;
 }
 
 #contact-form input[type="submit"] {
@@ -238,11 +240,18 @@ font-size: 30px;}
 }
 
 #contact-form{
-   background-color: ivory;
-   padding-left: 70px;
+   background-color: #522020;
+}
+
+#login{
+   width: 500px;
 }
 
 
+.jerry{
+   text-align: center;
+   justify-content: center;
+}
 
 
 
