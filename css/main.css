@@ -28,7 +28,11 @@
 
 
 
-
+     
+#meme1{
+   margin-right:-180px ;
+   width: 300px;
+  }
 
 
 
@@ -201,7 +205,9 @@ font-size: 30px;}
    #footer{
       background-image: url(../images/footer-desktop-80.jpg);
   }
-     
+
+  
+
 .golden{
    margin-top: 50px;
    margin-bottom: 50px;
@@ -244,13 +250,31 @@ font-size: 30px;}
 }
 
 #login{
-   width: 500px;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 
 .jerry{
    text-align: center;
    justify-content: center;
+   margin-left: 50px;
+   width: 350px;
+   padding: 15px;
+}
+
+
+#jerry1{
+   margin-top: 45px;
+   margin: 10px;
+}
+
+#jun{
+   width: 350px;
+}
+
+.juni{
+   grid-template-columns: 1/12;
 }
 
 
@@ -309,6 +333,7 @@ font-size: 30px;
       margin-left: 50px;
     }
  
+   
 
 
 
@@ -377,5 +402,27 @@ font-size: 30px;
 
    #sign-in-hero {
       display: none;
+   }
+
+
+
+.jerry{
+   text-align: center;
+   justify-content: center;
+   margin-left: 200px;
+   width: 350px;
+}
+
+#meme{
+   margin-left: -200px;
+}
+}
+
+@media screen and  (min-width: 1020px) {
+   .jerry{
+      text-align: center;
+      justify-content: center;
+      margin-left: 400px;
+      width: 350px;
    }
 }
