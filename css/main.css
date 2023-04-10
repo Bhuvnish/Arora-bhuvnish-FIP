@@ -135,7 +135,7 @@
 
 
 
-  #characters {
+  #Team {
    text-align: center;
    background-color: grey;
 }
@@ -144,33 +144,33 @@
    font-weight: bolder
 }
 
-#characters h2 {
+#Team  h2 {
    margin-top: 20px;
 }
 
-#characters h3 {
+#Team  h3 {
    margin-top: 20px;
 }
 
-#characters p {
+#Team  p {
    margin-top: 10px;
 }
 
-#characters div {
+#Team  div {
    margin-top: 15px;
 }
 
-#characters img:hover {
-   opacity: 70%;
-   border-radius:50%;
+#Team img:hover {
+   opacity: 30%;
+   border-radius:30%;
 }
 
 .lightbox { 
-    width: 30vw; 
+    width: 35vw; 
     height: 35vh; 
     border-radius: 2%;
     position: absolute;
-    top: 140%;
+    top: 260%;
     left: 35%;
     background-color: rgba(17, 6, 24, 0.938);
     z-index: 5000;
@@ -187,17 +187,18 @@
     font-weight: bolder;
 }
 
-.lightbox_close:hover { opacity: 0.5; color: rgb(141, 119, 146); }
+.lightbox_close:hover {  color: goldenrod; }
 
 
 
 .lightbox article {
-    width: 80%;
+    width: 90%;
     margin-left: 10%;
     color: white;
 }
 
-.lb_text, .lb_heading { text-align: center; }
+.lb_text, .lb_heading { text-align: center;
+padding-bottom: 20px; }
 
 .lb_text {
     line-height: 1.6 !important;
@@ -309,6 +310,16 @@
     
 }  
 
+#buy-nows{
+   font-size: 20px;
+   
+   padding-left: 280px;
+   padding-bottom: 10px;
+  
+   
+
+}
+
 #buy-now{
    font-size: 20px;
    
@@ -318,7 +329,7 @@
    
 
 }
-#buy-now a {
+#buy-nows a {
   
  
    
@@ -331,6 +342,19 @@
 
    
 }
+#buy-now a {
+  
+ 
+   
+ 
+   color: #fff;
+   text-decoration: none;
+   border-radius: 1px solid white;
+  
+  
+  
+     
+  }
 
 
 
@@ -351,16 +375,25 @@
 
 #collection div {
    margin-top: 20px;
+   margin-bottom: 40px;
 }
 
 #collection img {
    margin-top: 20px;
 }
 #collection a{
-   color: #626262;
+   color: white;
    text-decoration: none;
    margin-bottom: 20px;
    text-align: center;
+   font-size: 30px;
+  
+}
+
+#collection  div a {
+   border: 3px solid goldenrod;
+   background-color: grey;
+
 }
 
 #team {
@@ -423,6 +456,7 @@ color: #d6d6d6;}
 }
 #buy-now a{
    color: green;
+   text-decoration: none;
   
 
 }
@@ -573,6 +607,14 @@ font-size: 30px;
 
 
    }
+   #buy-nows{
+      margin-left: 250px;
+      font-size: 30px;
+   
+      
+      
+      
+         }
 
 
    #new-arrival{
@@ -720,6 +762,7 @@ font-size: 30px;
    border: 1px solid white;
    font-size: 50px;
    background-color: #626262;
+
  
 }
 #buy-now{
@@ -729,6 +772,7 @@ font-size: 30px;
    
    
       }
+     
       #banner h4{
          font-size: 50px;
          color: #626262;
@@ -748,7 +792,66 @@ font-size: 30px;
    font-size: 40px;
    text-align: right;
 }
+#buy-nows{
+   margin-left: 270px;
+  
+}
+#buy-now{
+   margin-left: 270px;
+  
+}
 
 
 }
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#body {
+   background-color: #f8f8f8;
+   font-family: Arial, sans-serif;
+   text-align: center;
+   padding-top: 50px;
+ }
+
+
+
+
+
+#default h1 {
+  font-size: 72px;
+  color: #333;
+  margin: 0;
+  line-height: 1.2;
+}
+#default p {
+  font-size: 24px;
+  color: #666;
+  margin-bottom: 30px;
+}
+#default a {
+  color: #fff;
+  background-color: #333;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+#default a:hover {
+  background-color: #555;
+}
