@@ -266,7 +266,7 @@ padding-bottom: 20px; }
   
  }
  
- #new-arrival h2 {
+ .new-arrival h2 {
    margin-top: 10px;
    margin-bottom: 10px;
    font-size: 42px;
@@ -275,7 +275,7 @@ padding-bottom: 20px; }
 }
 
 
-#new-arrival img:hover{
+.new-arrival img:hover{
    opacity: 70%;
    border-radius: 30%;
   
@@ -303,7 +303,7 @@ padding-bottom: 20px; }
    height: 220px;
    object-fit: cover;
 }
-#banner h3 {
+.banner h3 {
    font-family: 'Times New Roman', Times, serif;
    color: white;
    font-size: 20px;
@@ -311,12 +311,12 @@ padding-bottom: 20px; }
    padding: 10px;
 
 }
-#banner h3:hover {
+.banner h3:hover {
    color: goldenrod;
 }
 
 
-#banner{
+.banner{
    
   margin-top: 0PX;
     background-color: black;
@@ -334,7 +334,7 @@ padding-bottom: 20px; }
 
 }
 
-#buy-now{
+.buy-now{
    font-size: 20px;
    
    padding-left: 280px;
@@ -356,7 +356,7 @@ padding-bottom: 20px; }
 
    
 }
-#buy-now a {
+.buy-now a {
   
  
    
@@ -462,13 +462,13 @@ color: #d6d6d6;}
 
 
 
-#banner h4{
+.banner h4{
    font-size: 30px;
    margin-left: 10px;
    padding-top: 20px;
   
 }
-#buy-now a{
+.buy-now a{
    color: green;
    text-decoration: none;
   
@@ -487,7 +487,7 @@ color: #d6d6d6;}
 
    #footer{
       background-image: url(../images/footer-desktop-80.jpg);
-      opacity: 10%;
+      opacity: 90%;
   }
 
   
@@ -599,23 +599,23 @@ color: #d6d6d6;}
 
 
 @media screen and  (min-width: 760px) {
-   #banner{
+   .banner{
       height: 120px
      ;
    }
-   #banner h3{
+   .banner h3{
       font-size: 31px;
       margin-top: 30px;
       margin-left: 10px;
    }
-   #banner h3:hover{
+   .banner h3:hover{
       font-size: 35px;
       margin-top: 30px;
       margin-left: 10px;
       transition: 0.2s ease;
       color: goldenrod;
    }
-   #buy-now{
+   .buy-now{
 margin-left: 150px;
 font-size: 30px;
 
@@ -632,7 +632,7 @@ font-size: 30px;
          }
 
 
-   #new-arrival{
+   .new-arrival{
       margin-left: 50px;
     }
  
@@ -755,15 +755,15 @@ font-size: 30px;
       transition: 0.5s ease-in;
      
     }
-    #banner{
+    .banner{
       height: 200px;
     }
-    #banner h3{
+    .banner h3{
       font-size: 51px;
       margin-top: 30px;
       margin-left: 10px;
    }
-   #banner h3:hover{
+   .banner h3:hover{
       font-size: 45px;
       margin-top: 30px;
       margin-left: 10px;
@@ -780,7 +780,7 @@ font-size: 30px;
 
  
 }
-#buy-now{
+.buy-now{
    margin-left: 350px;
    font-size: 40px;
    
@@ -788,11 +788,11 @@ font-size: 30px;
    
       }
      
-      #banner h4{
+      .banner h4{
          font-size: 50px;
          color: #626262;
       }
-      #banner{
+      .banner{
          height:150px;
       }
 
@@ -811,7 +811,7 @@ font-size: 30px;
    margin-left: 270px;
   
 }
-#buy-now{
+.buy-now{
    margin-left: 270px;
   
 }
@@ -847,16 +847,18 @@ font-size: 30px;
 
 
 
-#default h1 {
+#default h2 {
   font-size: 72px;
   color: #333;
   margin: 0;
   line-height: 1.2;
+  font-style: italic;
 }
 #default p {
   font-size: 24px;
   color: #666;
   margin-bottom: 30px;
+  font-family:cursive;
 }
 #default a {
   color: #fff;
