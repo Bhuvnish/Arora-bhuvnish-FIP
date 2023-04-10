@@ -104,9 +104,23 @@
 }
 
  
+#new-arrivals h2{
+   background: url(../images/backgrounf-new.gif)  ;
+   
+}
 
+#background{
+   background: url(../images/sailing-bottle.gif)  no-repeat ;
+ 
+ 
+  
 
+  
+   background-repeat: no-repeat;
+   background-size: cover;
 
+   background-blend-mode: multiply;
+}
 
 
 
@@ -230,7 +244,7 @@ padding-bottom: 20px; }
 
 
 
- /**HEADER FINISH MOBILE*/
+
 
  #hero-image{
     padding: 0px;
@@ -336,7 +350,7 @@ padding-bottom: 20px; }
  
  color: #fff;
  text-decoration: none;
- border-radius: 1px solid white;
+ border: 1px solid white;
 
 
 
@@ -349,7 +363,7 @@ padding-bottom: 20px; }
  
    color: #fff;
    text-decoration: none;
-   border-radius: 1px solid white;
+   border: 1px solid white;
   
   
   
@@ -514,9 +528,7 @@ color: #d6d6d6;}
    border-radius: 10px;
 }
 
-#contact-form{
-   background-color: #522020;
-}
+
 
 #login{
    margin-left: auto;
@@ -542,9 +554,11 @@ color: #d6d6d6;}
    width: 350px;
 }
 
-.juni{
-   grid-template-columns: 1/12;
+#password{
+   width: 350px;
 }
+
+
 
 
 
@@ -597,7 +611,7 @@ color: #d6d6d6;}
       font-size: 35px;
       margin-top: 30px;
       margin-left: 10px;
-      transition: 0.2 ease;
+      transition: 0.2s ease;
       color: goldenrod;
    }
    #buy-now{
@@ -752,7 +766,7 @@ font-size: 30px;
       font-size: 45px;
       margin-top: 30px;
       margin-left: 10px;
-      transition: 0.2 ease;
+      transition: 0.5s ease;
       color: goldenrod;
       transition: 0.5s ease;
    }
